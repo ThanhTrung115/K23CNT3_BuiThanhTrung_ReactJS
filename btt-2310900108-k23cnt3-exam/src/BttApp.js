@@ -16,8 +16,8 @@ const BttApp = () => {
     return (
         <div>
             <h1>Quản lý sản phẩm</h1>
-            <ProductAdd onAddProduct={addProduct} />
             <ProductList products={products} />
+            <ProductAdd onAddProduct={addProduct} />
         </div>
     );
 };

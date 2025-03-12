@@ -17,7 +17,7 @@ const BttProductAdd = ({ onAddProduct }) => {
         if (newProduct.pid && newProduct.pName && newProduct.pQuantity && newProduct.pPrice) {
             onAddProduct({
                 ...newProduct,
-                pid: parseInt(newProduct.pid), // Chuyển đổi ID thành số
+                pid: parseInt(newProduct.pid),
                 pQuantity: parseInt(newProduct.pQuantity),
                 pPrice: parseFloat(newProduct.pPrice),
             });

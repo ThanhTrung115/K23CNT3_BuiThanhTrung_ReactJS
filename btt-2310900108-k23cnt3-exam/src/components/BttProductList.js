@@ -19,7 +19,7 @@ const BttProductList = ({ products }) => {
                             <td>{product.pid}</td>
                             <td>{product.pName}</td>
                             <td>{product.pQuantity}</td>
-                            <td>{product.pPrice} VND</td>
+                            <td>{product.pPrice} VNĐ</td>
                         </tr>
                     ))}
                 </tbody>
